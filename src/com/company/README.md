@@ -21,6 +21,8 @@ evaluateTop100 - O(log(n)) from the Red-Black Tree inserts/deletions
 
 queueConsumer - O(log(n)) from calling evaluateTop100()
 
+top100() - O(n) (really O(100), there are always 100 or less results to iterate through)
+
 clear - O(n)
 
 
